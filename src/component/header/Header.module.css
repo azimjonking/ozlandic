@@ -1,0 +1,125 @@
+.header {
+  width: 100%;
+  padding: 35px;
+  background: #017b411a;
+  border-radius: 0 0 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.search {
+  min-width: 280px;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.search > .icon {
+  font-size: 18px;
+  color: #292d32cc;
+}
+
+.search > input {
+  flex-grow: 1;
+  font-family: var(--inter);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #292d32cc;
+}
+
+.search > input::placeholder {
+  font-family: var(--inter);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #292d32cc;
+}
+
+.lang > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.lang > button > .icon {
+  color: #292d32;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.lang > button:hover {
+  background: #292d32;
+}
+
+.lang > button:hover > .icon {
+  color: #ffffff;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.signup > .icon {
+  color: #292d32;
+  font-size: 24px;
+}
+
+.signup > span {
+  font-family: var(--inter);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  color: #000000cc;
+}
+
+.login {
+  padding: 10px 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(287.18deg, #004a27 -33.95%, #008647 178.61%);
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.login:hover {
+  background: linear-gradient(287.18deg, #006537 -33.95%, #00a35a 178.61%);
+}
+
+.login > span {
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: center;
+  color: #ffffff;
+}
